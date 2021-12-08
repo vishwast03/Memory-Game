@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Memory Game</title>
+</head>
+
+<body>
+    <h3 class="scoreboard">Score : <span id="score">0</span></h3>
+    <div class="board-container">
+        <div class="board"></div>
+    </div>
+    <button class="restart-btn">
+        <i class="fa fa-undo"></i>
+    </button>
+    
+    <!-- audio -->
+    <audio id="click-sound" src="./sounds/click.wav"></audio>
+    <audio id="match-sound" src="./sounds/match.wav"></audio>
+    <audio id="not-match-sound" src="./sounds/not_match.wav"></audio>
+    <audio id="win-sound" src="./sounds/win.wav"></audio>
+    
+    <script src="./app.js"></script>
+</body>
+
+</html>
